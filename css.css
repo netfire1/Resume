@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#main-wrapper{
+    width: 1000px;
+    min-height: 100%;
+    position: relative;
+}
+
+#content{
+    width: 1000px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#header {
+    width: 1000px;
+    margin: 0 auto -60px;
+    padding: 0 0 0px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: right;
+    height: 80px;
+    display: table;
+}
+
+#menu {
+    padding-top:  10px;
+    padding-right: 20px;
+    font-size: 20px;
+    display: table-cell;
+
+}
+
+#avatar {
+    display: table-cell;
+    padding-right: 10px;
+    width: 60px;    
+    height: 60px;
+}
+
+
+li {
+    vertical-align: top;
+    display: inline-block;
+}
+
+form{
+    display: inline-block;
+}
+
+
+
+input[type=button]{
+    width: 130px;
+    height: 30px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+button[type=submit]{
+    width: 140px;
+    height: 30px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+#footer {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: graytext;
+    height: 30px;
+    text-align: right;
+    border-top: 1px solid #ddd;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+
+}
+
+#footer p {
+    padding-right: 20px;
+}
+
+form label {
+    float:left;
+    width:120px;
+    text-align:right;
+    margin-right:15px;
+    font-weight:bold;
+    color:#666;
+    font-size: 13px;
+}
+
+form div {
+    padding:4px;
+    margin: 4px 0;
+    position:relative;
+}
+.avatar {
+    height: 50px;
+}
+
+.header_ref{
+    color: #C2FF85;
+    text-decoration:none;    
+    margin-right: 20px;
+}
+
+.reg_ref{
+    color: #6699FF;
+    text-decoration:none;
+}
+
+
+.capth_images{
+    height: 30px;
+}
+img {
+    height: 300px;
+}
+h1{
+    text-align: center;
+}
+
+form.btn {
+    display:block;
+    height:31px;
+    padding:0 10px;
+    background-color: lightskyblue;
+    font-weight:bold;
+    font-size:12px;
+    border:1px solid #e1e0df;
+    outline:none;
+    cursor: pointer;
+}
+
+div.error_field{
+    background: #FEDAFB;
+    border: 1px solid #FA74F0;
+}
+
+div.errors{
+    width: 580px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #FDFEC2;
+}
+
+div.errors .error{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#err{
+    color: lightcoral;
+    text-align: center;
+    margin-top:  70px;
+}
+
+#success{
+    color: green;
+    text-align: center;
+    margin-top:  70px;
+}
+
+.btn-del{
+    background-color: #FF7070;
+}
+
